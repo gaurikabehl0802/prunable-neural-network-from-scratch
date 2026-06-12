@@ -63,19 +63,4 @@ The performance evaluation pipeline benchmarks network metrics across isolated s
 
 ---
 
-## 🛠️ Repository Directory & Setup
 
-### File Structure
-* `mlp.py`: The core object-oriented engine containing initialization states, mathematical activation primitives, forward/backward loops, and the pruning logic.
-* `benchmark.py`: The evaluation pipeline that handles data preparation, model training, performance tracking, microsecond latency profiling, and graph generation.
-
-### Execution Instructions
-To run this project inside a standard local environment or Jupyter setup, clone this repository and execute the driver file:
-
-```bash
-# Clone the repository
-git clone [https://github.com/YOUR_USERNAME/Prunable-Neural-Network-From-Scratch.git](https://github.com/YOUR_USERNAME/Prunable-Neural-Network-From-Scratch.git)
-cd Prunable-Neural-Network-From-Scratch
-
-# Run the training, pruning, and benchmarking pipeline
-python benchmark.py
